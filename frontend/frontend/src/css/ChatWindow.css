@@ -1,0 +1,121 @@
+/* ChatWindow.css */
+
+/* Container for the entire chat window */
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  height: 98vh;
+  width: 100vw;
+  background-color: #f4f4f4;
+}
+
+.channel-and-chat {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 98vh;
+}
+
+.message-chat {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 83vh;
+}
+
+/* Styling for the messages */
+.message-list {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+/* Styling for the bot message bubble */
+.message.bot {
+  justify-content: flex-start;
+}
+
+.bot-message {
+  background-color: #d0e7f9; /* Baby blue background */
+  color: #333;
+  padding: 10px 10px;
+  border-radius: 10px;
+  max-width: 90%;
+  word-wrap: break-word;
+}
+
+/* Styling for the user message bubble */
+.message.user {
+  justify-content: flex-end;
+}
+
+.user-message {
+  background-color: #f7fcff; /* Light gray color */
+  color: #333;
+  padding: 10px 10px;
+  border-radius: 10px;
+  max-width: 90%;
+  word-wrap: break-word;
+}
+
+/* Buttons container */
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+/* Styling for the buttons */
+button {
+  padding: 10px 20px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  background-color: #d0e7f9; /* Matching baby blue background as bot bubble */
+  color: #333; /* Dark text to contrast with the background */
+}
+
+button:hover {
+  background-color: #a6c9e9; /* Darker shade of baby blue for hover effect */
+}
+
+/* Spinner styling */
+.spinner {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+/* Styling for the channel list */
+.channel-list {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.channel-item {
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.channel-item:hover {
+  background-color: #d0e7f9;
+}
+
+.channel-item.active {
+  background-color: #8fbcf9;
+  font-weight: bold;
+}

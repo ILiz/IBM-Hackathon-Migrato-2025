@@ -1,0 +1,71 @@
+.message-list {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  max-width: 60%;
+}
+
+.user {
+  align-self: flex-end;
+  background-color: #aee6ff;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 60%;
+}
+
+.bot {
+  align-self: flex-start;
+  background: none;
+  padding: 0;
+}
+
+.granite-reply {
+  background-color: #f7fcff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+  max-width: 80%;
+}
+
+.granite-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #1d3557;
+}
+
+.granite-expansion {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.granite-image-prompt {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.message-comments {
+  margin-top: 8px;
+  font-size: 0.85em;
+  color: #444;
+}
+
+.message-comments ul {
+  padding-left: 20px;
+  margin: 4px 0;
+}
+
+.message-comments li {
+  list-style: disc;
+}
+

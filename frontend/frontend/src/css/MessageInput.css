@@ -1,0 +1,14 @@
+.message-input {
+  border-top: 1px solid #ccc;
+  padding: 10px;
+  background: #ffffff;
+}
+
+.message-input input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aee6ff;
+  border-radius: 5px;
+  background: #f7fcff;
+  color: #2c3e50;
+}

@@ -1,0 +1,7 @@
+.chat-header {
+  background: #aee6ff; /* Baby blue highlight */
+  padding: 15px;
+  font-weight: bold;
+  color: #2c3e50;
+  border-bottom: 1px solid #ccc;
+}
